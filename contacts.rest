@@ -1,32 +1,73 @@
-### Get all contacts
+###
+### LOCAL TESTING
+###
+
+### Get all contacts (LOCAL)
 GET http://localhost:8080/contacts
 
-### Get single contact
+### Get single contact (LOCAL)
 GET http://localhost:8080/contacts/6965b56e59774cd21681158b
 
-### Create new contact
+### Create new contact (LOCAL)
 POST http://localhost:8080/contacts
 Content-Type: application/json
 
 {
-  "firstName": "Sarah ",
+  "firstName": "Sarah",
   "lastName": "Johnson",
   "email": "sarahjohnson505@gmail.com",
   "favoriteColor": "Sky Blue",
   "birthday": "2000-10-22"
 }
 
-### Update contact (YOU MUST ADD AN ID HERE!)
-PUT http://localhost:8080/contacts/
+### Update contact (LOCAL)
+PUT http://localhost:8080/contacts/696b46afb98a0beedb57789f
 Content-Type: application/json
 
 {
-  "firstName": "Sarah ",
-  "lastName": "Johnson",
+  "firstName": "Sarah",
+  "lastName": "Johnson-Updated",
   "email": "sarahjohnson505@gmail.com",
   "favoriteColor": "Navy Blue",
-  "birthday": "2006-8-15"
+  "birthday": "2006-08-15"
 }
 
-### Delete contact
+### Delete contact (LOCAL)
 DELETE http://localhost:8080/contacts/696b3c6cb98a0beedb57789e
+
+###
+### RENDER TESTING 
+###
+
+### Get all contacts (RENDER)
+GET https://cse341-l0tm.onrender.com/contacts
+
+### Get single contact (RENDER)
+GET  https://cse341-l0tm.onrender.com/contacts/
+
+### Create new contact (RENDER)
+POST  https://cse341-l0tm.onrender.com/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Michael",
+  "lastName": "Taylor",
+  "email": "michael@example.com",
+  "favoriteColor": "Black",
+  "birthday": "1987-12-05"
+}
+
+### Update contact (RENDER)
+PUT  https://cse341-l0tm.onrender.com/contacts/
+Content-Type: application/json
+
+{
+  "firstName": "Michael",
+  "lastName": "Taylor",
+  "email": "michaeltaylor@gmail.com",
+  "favoriteColor": "Brown",
+  "birthday": "1997-12-05"
+}
+
+### Delete contact (RENDER)
+DELETE  https://cse341-l0tm.onrender.com/contacts/
