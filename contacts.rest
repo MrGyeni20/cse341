@@ -41,9 +41,8 @@ DELETE http://localhost:8080/contacts/696b3c6cb98a0beedb57789e
 
 ### Get all contacts (RENDER)
 GET https://cse341-l0tm.onrender.com/contacts
-
 ### Get single contact (RENDER)
-GET  https://cse341-l0tm.onrender.com/contacts/
+GET https://cse341-l0tm.onrender.com/contacts/6972f9722c493500475932a3
 
 ### Create new contact (RENDER)
 POST  https://cse341-l0tm.onrender.com/contacts
@@ -58,7 +57,7 @@ Content-Type: application/json
 }
 
 ### Update contact (RENDER)
-PUT  https://cse341-l0tm.onrender.com/contacts/
+PUT  https://cse341-l0tm.onrender.com/contacts/6972fc6cf97c1f6f8bfe2b8a
 Content-Type: application/json
 
 {
@@ -70,4 +69,4 @@ Content-Type: application/json
 }
 
 ### Delete contact (RENDER)
-DELETE  https://cse341-l0tm.onrender.com/contacts/
+DELETE  https://cse341-l0tm.onrender.com/contacts/6965b52e59774cd216811589
