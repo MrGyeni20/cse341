@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const { initDb } = require('./db/connect');
 const contactsRoutes = require('./routes/contacts');
 const swaggerUi = require('swagger-ui-express');

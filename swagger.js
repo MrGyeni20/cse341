@@ -6,7 +6,7 @@ const doc = {
     description: 'API for managing contacts - Week 2 Project',
     version: '1.0.0'
   },
-  host: 'cse341.onrender.com',  
+  host: 'cse341-l0tm.onrender.com',  
   schemes: ['https'],             
   tags: [
     {
